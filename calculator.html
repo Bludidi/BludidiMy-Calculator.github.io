@@ -1,0 +1,44 @@
+<html>
+    <head>
+     <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>My Calculator</title>
+        <link rel ="stylesheet" href = "calc.css"/>
+    </head>
+    <body>
+        <div id='mainDiv'>
+            <input class="display-box" type="text" id="display" placeholder="0" disabled/>
+            <br/>
+            <div id="buttons">
+                
+                <!--clear button to clear the screen-->
+                <input type="button"  value="C" id="clr" class="btns" onclick="clearScreen()"> 
+                
+                <!--click on buttons and display value --> 
+                <input type="button" value="x" id="multiply" class="btns" onclick="display('*')"/>
+                <br/>
+                <input type="button" value="1" id="one" class="btns" onclick="display('1')"/>
+                <input type="button" value="2" id="two" class="btns" onclick="display('2')"/>
+                <input type="button" value="3" id="three" class="btns" onclick="display('3')"/>
+                <input type="button" value="/" id="divide" class="btns" onclick="display('/')"/>
+                <br/> 
+                <input type="button" value="4" id="four" class="btns" onclick="display('4')"/>
+                <input type="button" value="5" id="five" class="btns" onclick="display('5')"/>
+                <input type="button" value="6" id="six" class="btns" onclick="display('6')"/>
+                <input type="button" value="-" id="subtract" class="btns" onclick="display('-')"/>
+                <br/> 
+                <input type="button" value="7" id="seven" class="btns" onclick="display('7')"/>
+                <input type="button" value="8" id="eight" class="btns" onclick="display('8')"/>
+                <input type="button" value="9" id="nine" class="btns" onclick="display('9')"/>
+                <input type="button" value="+" id="add" class="btns" onclick="display('+')"/>
+                <br/>
+                <input type="button" value="." id="period" class="btns" onclick="display('.')"/>
+                <input type="button" value="0" id="zero" class="btns" onclick="display('0')"/>
+                <input type="button" value="=" id="equal" class="btns" onclick="calculate()"/>
+
+            </div>
+        <br/><h4 id="text">--Bludidi5 Calculator--</h4>
+        </div>
+        <script src="calc.js"></script>
+    </body>
+</html>
