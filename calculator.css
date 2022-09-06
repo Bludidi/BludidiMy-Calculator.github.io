@@ -7,6 +7,14 @@
     color: #FFFFFF; 
     font-family: Helvetica; 
     border-radius: 7px;
+     align-content: center;
+    justify-content: center;
+}
+
+body{
+    align-content: center;
+    justify-content: center;
+    background-color: aquamarine;
 }
 
 #display{
