@@ -1,49 +1,49 @@
-#mainDiv{
+#mainDiv {
     height: 500px;
     width: 338px;
     margin: 10;
     background-color: red;
-    padding: 10px 10px 10px 10px; 
-    color: #FFFFFF; 
-    font-family: Helvetica; 
+    padding: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    font-family: Helvetica;
     border-radius: 7px;
-     align-content: center;
+    align-content: center;
     justify-content: center;
 }
 
-body{
+body {
     align-content: center;
     justify-content: center;
     background-color: aquamarine;
 }
 
-#display{
+#display {
     height: 72px;
-    width: 325px; 
+    width: 325px;
     margin: 10px;
     font-size: 50px;
-    border: 5px; 
+    border: 5px;
     border-radius: 8px;
     text-align: end;
     color: black;
     justify-content: center;
 }
 
-#buttons{
+#buttons {
     margin: 10px;
     width: 325px;
     background-color: black;
-    border-radius: 10px; 
-    padding-left: 
+    border-radius: 10px;
+    /* padding-left: */
 }
 
 .btns {
     background-color: gray;
-    height: 60px; 
-    width: 50px; 
-    border-radius: 25%; 
-    margin: 5px; 
-    font-size: 28px; 
+    height: 60px;
+    width: 50px;
+    border-radius: 25%;
+    margin: 5px;
+    font-size: 28px;
     color: white;
 }
 
@@ -51,86 +51,86 @@ body{
     background-color: mediumseagreen;
     font-size: 35px;
     cursor: pointer;
-   
+
 }
 
-#equal{
+#equal {
     width: 100px;
     margin-left: 15px;
     background-color: forestgreen;
 }
 
-#clr{
+#clr {
     margin-right: 194px;
     margin-left: 10px;
     background-color: red;
 }
 
-#multiply{
+#multiply {
     background-color: orange;
 }
 
-#divide{
+#divide {
     background-color: orange;
 }
 
-#subtract{
+#subtract {
     background-color: orange;
 }
 
-#add{
+#add {
     background-color: orange;
 }
 
-#one{
+#one {
     margin-right: 25px;
     margin-left: 10px;
 }
 
-#two{
+#two {
     margin-right: 25px;
 }
 
-#three{
+#three {
     margin-right: 25px;
 }
 
-#four{
-    margin-right: 25px;
-    margin-left: 10px;
-}
-
-#five{
-    margin-right: 25px;
-}
-
-#six{
-    margin-right: 25px;
-}
-
-#seven{
+#four {
     margin-right: 25px;
     margin-left: 10px;
 }
 
-#eight{
+#five {
     margin-right: 25px;
 }
 
-#nine{
+#six {
     margin-right: 25px;
 }
 
-#period{
+#seven {
     margin-right: 25px;
     margin-left: 10px;
 }
 
-#zero{
+#eight {
     margin-right: 25px;
 }
 
-h4{
-  text-align: center; 
+#nine {
+    margin-right: 25px;
+}
+
+#period {
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+#zero {
+    margin-right: 25px;
+}
+
+h4 {
+    text-align: center;
     margin-top: 0;
 }
